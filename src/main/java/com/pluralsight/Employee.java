@@ -8,10 +8,10 @@ public class Employee {
     private double grossPay;
 
     public Employee(int employeeId, String name, double hoursWorked, double payRate) {
-        this.employeeId = employeeId;
+        this.employeeId = (employeeId);
         this.name = name;
-        this.hoursWorked = hoursWorked;
-        this.payRate = payRate;
+        this.hoursWorked =(hoursWorked);
+        this.payRate = (payRate);
         this.grossPay = grossPay;
     }
 
